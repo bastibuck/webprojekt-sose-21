@@ -1,0 +1,140 @@
+body {
+  font-size: 18px;
+  font-family: sans-serif;  
+}
+
+header {
+  background: #c5ee9f;
+  padding: 20px;
+  color: #003362;
+}
+
+h1 {
+  max-width: 1400px;
+  margin: auto;
+}
+
+main {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.divider-headline {
+  color: #099bf0;
+}
+
+
+
+.className {
+  color: pink;
+}
+
+#kurs {
+  color: greenyellow;
+}
+
+/* stufenförmig */
+ul li > strong {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* spezifität */
+#blue-bg {
+  background: blue;
+}
+
+.red-bg {
+  background: red;
+}
+
+div {
+  background: deeppink;
+}
+
+div {
+  background: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* boxmodell */
+* {
+  /* outline: 1px dashed red; */
+}
+
+
+
+.boxmodell {
+  background: yellow;
+  
+  padding: 20px;
+  
+  border: 5px solid black;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+
+  margin: 40px;
+}

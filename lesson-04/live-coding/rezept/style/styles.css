@@ -1,0 +1,45 @@
+a {
+  color: black;
+}
+
+p {
+  color: blue;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+body {
+  background-color: grey;
+}
+
+img {
+  height: 200px;
+  width: 400px;
+  border: 5px dashed red;
+
+  border-width: 5px;
+  border-style: dashed;
+  border-color: red;
+}
+
+ul {
+  background: hotpink;
+}
+
+.header {
+  background: lightskyblue;
+}
+
+.text-blue {
+  color: blue
+}
+
+.red {
+  color: red
+}
+
+.white {
+  color: white
+}
