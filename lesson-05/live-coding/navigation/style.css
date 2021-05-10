@@ -1,0 +1,57 @@
+main img {
+  width: 400px;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+/* navigation */
+header {
+  background: #55ffd6;
+  /* background-image: url("imgs/office.jpg"); */
+  height: 100px; /* change once */
+}
+
+nav {
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  height: 100%;
+}
+
+.navigation li {
+  width: 25%;
+  font-size: 36px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+
+.navigation li.first {
+  border-left: 1px solid white;
+}
+
+.navigation li:hover,
+.navigation li.active {
+  background: #15d1a5;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.navigation a {
+  color: #ffffff;
+}
